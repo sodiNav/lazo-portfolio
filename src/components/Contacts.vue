@@ -55,6 +55,10 @@
 			notyf.error("Failed to send message.");
 		} finally {
 			resetRecaptcha();
+            name.value = '';
+            email.value = '';
+            contactNo.value = '';
+            message.value = '';
 		}
 
 	}
