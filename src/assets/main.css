@@ -1,0 +1,105 @@
+/* Imported Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fffae7;
+}
+
+.project {
+    display: block;
+    overflow: hidden;
+    border: 1px solid #dadada;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: box-shadow 0.15s ease-in-out, border 0.15s ease-in-out, transform .2s ease-in-out;
+    max-width: 23.75rem !important;
+    min-width: 17.75rem !important;
+    margin: 0 auto;
+}
+
+.tool-img-size {
+    min-height: 100px;
+    max-height: 150px;
+    width: 100px;
+}
+
+.header-font {
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-primary-custom {
+    background-color: #096f67;
+}
+
+.bg-secondary-custom {
+    background-color: #329473;
+}
+
+.bg-light-custom {
+    background-color: #f9f871;
+}
+
+.bg-lime-custom {
+    background-color: #abdb72;
+}
+
+.bg-dark-custom {
+    background-color: #0b4b50;
+}
+
+#landing {
+    height: 100vh !important;
+}
+
+#profile-img {
+    min-width: 150px;
+    max-width: 300px;
+    border: 2px solid black;
+}
+
+#contact-links i{
+    font-size: 2rem;
+}
+
+.to-top {
+    background-color: #fff;
+    display: flex;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 3rem;
+    position: fixed;
+    border-radius: 50%;
+    color: #329473;
+    border: 5px solid #329473;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    z-index: 20;
+}
+
+.to-top.active {
+    bottom: 2rem;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.to-top:hover {
+    color: #abdb72;
+    border: 5px solid #abdb72;
+    transform: scale(1.2);
+}
