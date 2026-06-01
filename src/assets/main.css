@@ -39,23 +39,23 @@ body {
 }
 
 .bg-primary-custom {
-    background-color: #096f67;
+    background-color: #096f67 !important;
 }
 
 .bg-secondary-custom {
-    background-color: #329473;
+    background-color: #329473 !important;
 }
 
 .bg-light-custom {
-    background-color: #f9f871;
+    background-color: #f9f871 !important;
 }
 
 .bg-lime-custom {
-    background-color: #abdb72;
+    background-color: #abdb72 !important;
 }
 
 .bg-dark-custom {
-    background-color: #0b4b50;
+    background-color: #0b4b50 !important;
 }
 
 #landing {
